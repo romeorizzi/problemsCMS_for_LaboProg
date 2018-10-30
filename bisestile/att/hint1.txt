@@ -1,0 +1,8 @@
+Và inteso come un esercizio sull'uso delle istruzioni condizionali (ossia dell'if, almeno in tutti i linguaggi di programmazione di cui io sappia).
+Tali istruzioni servono per compiere delle azioni piuttosto che altre a seconda delle situazioni che vengono a presentarsi in tempo reale ad esecuzione in corso.
+
+Esempio: se fuori piove allora mi porto l'ombrello.
+
+Le situazioni condizionali possono finire coll'innestarsi.
+
+Esempio: Se uno fà una battuta allora rido. Però, se quella battuta ferisce qualcuno, allora evito di ridere.

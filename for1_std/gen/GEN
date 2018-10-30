@@ -1,0 +1,28 @@
+# File usato per descrivere gli input. Le parti della riga dopo un # vengono
+# ignorate. Le righe non banali (ovvero contenenti qualcosa oltre a whitespace
+# prima del primo #) vengono passate al generatore e generano un input ciascuna.
+# Se una riga inizia con "#ST:" (senza le virgolette) viene usata per delimitare
+# un subtask. "#ST:" va seguito con il punteggio assegnato a quel subtask.
+# Se sono presenti i subtask, la somma dei punti dei vari subtask DEVE dare 100.
+# Valori negativi del parametro seed sono utilizzati per indicare istanze del testo (-i si riferisce all'istanza i del testo, queste sono numerate in sequenza partendo da zero. Quindi: primo esempio per -0, secondo esempio per -1, ecc ...)
+# per questo problema, il seed positivo viene ignorato e si colloca in input.txt il primo numero della riga.
+
+# N     S
+#ST: 10
+6      -0
+24     -1
+#ST: 15
+17      2
+#ST: 25
+1        12
+5        13
+10       14
+15       15
+20       16
+#ST: 50
+1        22
+70       23
+800      24
+5000     25
+777      26
+

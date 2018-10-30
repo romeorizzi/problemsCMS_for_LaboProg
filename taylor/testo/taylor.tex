@@ -1,0 +1,99 @@
+\renewcommand{\nomebreve}{taylor}
+\renewcommand{\titolo}{Computo approssimato di funzioni tramite Taylor e Mc-Laurin}
+
+\newcommand{\apx}{{{apx}}}
+
+\introduzione{}
+
+Molti sistemi di computo si avvalgono delle serie di Taylor e Mc-Laurin per computare approssimazioni successive del valore di funzioni indefinitamente derivabili.
+
+Ad esempio, si potrebbe avvalersi delle seguenti scritture:
+
+\begin{itemize}
+\item[1] $e^x = \sum_{i=0}^{\infty} \frac{[e^x]_{[x=0]}x^i}{i!} = \sum_{i=0}^{\infty} \frac{x^i}{i!}$, da cui l'aprossimazione di rango $k$ è $\apx(e^x;k) := \sum_{i=1}^{k} \frac{x^i}{i!}$;
+
+\item[2] $\sin x = \sum_{i=0}^{\infty} (-1)^i \frac{x^{(2i+1)}}{(2i+1)!}$,
+  da cui $\apx(\sin x;k) := \sum_{i=0}^{k} (-1)^i \frac{x^{(2i+1)}}{(2i+1)!}$;  
+
+\item[3] $\log (1+x) = \sum_{i=0}^{\infty} (-1)^i \frac{x^i}{i}$,
+  da cui $\apx(\log (1+x);k) := \sum_{i=0}^{k} (-1)^i \frac{x^i}{i}$.   
+\end{itemize}
+
+Uno alla volta (uno per riga),
+il vostro programma riceve in input i seguenti $4$ valori:
+
+\begin{itemize}
+\item[1] un valore intero $t\in \{1,2,3\}$ atto a specificare quali delle tre formule sopra si intenda mettere alla prova: quella per il computo di $f_1(x)=e^x$,
+  quella per il computo di $f_2(x)=\sin x$, oppure quella per il computo di $f_3(x) = \log (1+x)$;
+\item[2] un valore float da assegnare alla variabile indipendente $x$, per il coputo approssimato di $f_t(x)$; 
+\item[3] un valore float $s$ che offre una stima molto precisa di $f_t(x)$;
+\item[4] un valore reale $\varepsilon$ che esprima una tolleranza;
+\end{itemize}
+
+Compito del vostro programma è il computo del più piccolo intero $k$
+tale che $|s-\apx(f_t(x);k)| < \varepsilon$.
+
+\sezionetesto{Dati di input}
+Il vostro programma riceve come suo input i valori $t, x, s, \varepsilon$
+in questo preciso ordine. Li legge da stdin uno alla volta, il primo è un numenro naturale e gli altri sono dei float.
+
+\sezionetesto{Dati di output}
+
+Dovete ritornare in output il numero naturale $k$ più piccolo tale che l'aprossimazione di rango $k$ possa bastare ad approssimare $s$ a meno di $\varepsilon$.
+
+% Esempi
+\sezionetesto{Esempio di input/output}
+\esempio{
+1
+  
+1.0
+
+2.71828182845904523536
+
+0.0001
+}{
+?  
+}
+
+\sezionetesto{Esempio di input/output}
+\esempio{
+2
+  
+0.0
+
+0.0
+
+0.693147181
+
+0.00001
+}{
+0
+}
+
+\sezionetesto{Esempio di input/output}
+\esempio{
+3
+
+1.0
+
+0.00001
+}{
+  ?
+}
+
+
+
+% Assunzioni
+%\sezionetesto{Assunzioni e note}
+%\begin{itemize}[nolistsep, noitemsep]
+%  \item $0 \le N \le 1\,000\,000$.
+%\end{itemize}
+  
+  \section*{Subtask}
+  \begin{itemize}
+    \item \textbf{Subtask 1 [25 punti]:} gli esempi del testo.
+    \item \textbf{Subtask 2 [25 punti]:} $t=1$.
+    \item \textbf{Subtask 3 [25 punti]:} $t=2$.
+    \item \textbf{Subtask 4 [25 punti]:} $t=3$.
+  \end{itemize}
+  

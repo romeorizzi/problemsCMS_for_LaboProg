@@ -1,0 +1,5 @@
+memory_limit: 256
+name: rev_seq
+time_limit: 1.0
+title: Rovesciare una sequenza
+token_mode: infinite

@@ -1,0 +1,53 @@
+\renewcommand{\nomebreve}{rovesciaseq}
+\renewcommand{\titolo}{Rovesciare una sequenza}
+
+\introduzione{}
+
+Ricevete in input una sequenza di $N$ numeri interi.
+In output dovete riproporre gli stessi $N$ numeri,
+ma in ordine inverso.
+
+
+\sezionetesto{Dati di input}
+La prima riga del file \verb'input.txt' contiene un numero intero e positivo $N$, la lunghezza della sequenza da rovoesciare.
+La seconda riga contiene, in ordine, gli $N$ numeri della sequenza.
+
+\sezionetesto{Dati di output}
+La prima riga del file \verb'output.txt' contiene l'intero $N$.
+La seconda riga contiene, in ordine, gli $N$ numeri della sequenza rovesciata.
+
+
+% Esempi
+\sezionetesto{Esempio di input/output}
+\esempio{
+6
+
+1 -2 -3 4 -5 9
+}{
+6
+
+9 -5 4 -3 -2 1}
+\esempio{
+5
+
+15 24 -33 -42 51
+}{
+5
+
+51 -42 -33 24 15}
+
+% Assunzioni
+\sezionetesto{Assunzioni e note}
+\begin{itemize}[nolistsep, noitemsep]
+  \item $2 \le N \le 1\,000\,000$.
+\end{itemize}
+  
+  \section*{Subtask}
+  \begin{itemize}
+    \item \textbf{Subtask 0 [10 punti]:} i due esempi del testo.
+    \item \textbf{Subtask 1 [10 punti]:} $N = 3$.
+    \item \textbf{Subtask 2 [20 punti]:} $N \leq 5$.
+    \item \textbf{Subtask 3 [20 punti]:} $N \leq 20$.
+    \item \textbf{Subtask 4 [40 punti]:} nessuna restrizione.
+  \end{itemize}
+  

@@ -1,0 +1,8 @@
+memory_limit: 256
+name: for2_std
+time_limit: 1.0
+title: Esercizio sui for annidati computo tabelline
+token_mode: infinite
+infile: ""
+outfile: ""
+

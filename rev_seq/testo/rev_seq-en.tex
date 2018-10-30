@@ -1,0 +1,57 @@
+\renewcommand{\nomebreve}{rovesciaseq}
+\renewcommand{\titolo}{Reverse a sequence}
+
+\introduzione{}
+
+You receive in input a sequence of $N$ integer numbers.
+Return in output the very same $N$ integer numbers,
+but in reverse order.
+
+\sezionetesto{input description}
+The first line of the file \verb'input.txt'
+contains a positive integer number $N$, the length of the sequence you should reverse.
+The second and last line
+contains a sequence of $N$ integer numbers separated by spaces.
+
+\sezionetesto{output description}
+The first line of the file \verb'output.txt'
+contains the integer $N$.
+The second and last line
+contains the reversed sequence:
+the same $N$ integers but like in a left-to-right mirror.
+
+
+% Esempi
+\sezionetesto{input/output example}
+\esempio{
+6
+
+1 -2 -3 4 -5 9
+}{
+6
+
+9 -5 4 -3 -2 1}
+\esempio{
+5
+
+15 24 -33 -42 51
+}{
+5
+
+51 -42 -33 24 15}
+
+% Assunzioni
+\sezionetesto{Assumptions}
+\begin{itemize}[nolistsep, noitemsep]
+  \item $2 \le N \le 1\,000\,000$.
+\end{itemize}
+  
+  \section*{Subtasks}
+  \begin{itemize}
+    \item \textbf{Subtask 0 [10 punti]:} the two examples above.
+    \item \textbf{Subtask 1 [10 punti]:} $N = 3$.
+    \item \textbf{Subtask 2 [20 punti]:} $N \leq 5$.
+    \item \textbf{Subtask 3 [20 punti]:} $N \leq 20$.
+    \item \textbf{Subtask 4 [40 punti]:} no special restriction.
+  \end{itemize}
+  

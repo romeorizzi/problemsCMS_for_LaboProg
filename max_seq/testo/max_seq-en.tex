@@ -1,0 +1,46 @@
+\renewcommand{\nomebreve}{max\_seq}
+\renewcommand{\titolo}{Find the maximum element in a sequence}
+
+\introduzione{}
+
+You receive in input a sequence of $N$ integer numbers.
+Return in output the maximum among them.
+
+\sezionetesto{input description}
+The first line of the file \verb'input.txt'
+contains a positive integer number $N$.
+The second and last line
+contains a sequence of $N$ integer numbers separated by spaces.
+
+\sezionetesto{output description}
+In the file \verb'output.txt' write one single line containing only one number: the maximum integer value contained in the input sequence.
+
+
+% Esempi
+\sezionetesto{input/output example}
+\esempio{
+6
+
+1 -2 -3 4 -5 9
+}{9}
+\esempio{
+5
+
+15 24 -33 -42 21
+}{24}
+
+% Assunzioni
+\sezionetesto{Assumptions}
+\begin{itemize}[nolistsep, noitemsep]
+  \item $2 \le N \le 1\,000\,000$.
+\end{itemize}
+  
+  \section*{Subtasks}
+  \begin{itemize}
+    \item \textbf{Subtask 1 [10 punti]:} the two examples above.
+    \item \textbf{Subtask 2 [10 punti]:} $N = 2$.
+    \item \textbf{Subtask 3 [20 punti]:} $N \leq 5$.
+    \item \textbf{Subtask 4 [20 punti]:} $N \leq 20$.
+    \item \textbf{Subtask 5 [40 punti]:} no special restriction.
+  \end{itemize}
+  

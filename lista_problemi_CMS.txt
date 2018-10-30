@@ -1,0 +1,43 @@
+problemi:
+  - io_std
+  - pari_o_dispari
+  - bisestile_giuliano
+  - bisestile_gregoriano
+  - bisestile
+  - io_file
+  - for1_std
+  - for1_file
+  - for2_std
+  - for2_file
+  - taylor
+  - rev_seq
+  - max_seq
+  - max_x
+  - ric_bin
+  - light_coin
+  - ordina_x
+  - pirellone
+  - mastermind_eval
+  - piastrelle
+  - board2tok
+  - minato
+  - triangolo
+  - pillole
+  - borse
+    #  - somme
+    #  - poldo
+    #  - collage
+    #  - slalom
+    #  - max_somma_intervallo
+    #  - hanoi
+    #  - hanoi_puzzle_reset
+  - alberi
+  - specchio
+  - dontstop
+  - piastrelle2
+  - mediana_x
+  - mappa
+    #  - longwalk
+    #  - matita
+    #  - euler-dir
+    #  - funghi

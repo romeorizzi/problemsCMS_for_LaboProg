@@ -1,0 +1,3 @@
+Al solito conviene ingegnarsi per riuscire a produrre una soluzione semplice da leggere, ricomprendere, e verificare. Un valore è ovviamente quello della modularità del codice.
+Suggerisco pertanto di delegare qualche competenza ad una qualche funzione.
+E' questo in generale il modo più opportuno di procedere.

@@ -1,0 +1,60 @@
+\renewcommand{\nomebreve}{bisestile\_gregoriano}
+\renewcommand{\titolo}{Esercizio uso if: Riconscimento di anni bisestili}
+
+\introduzione{}
+
+Un anno bisestile è un anno solare di 366 giorni piuttosto che di 365.
+Il giorno in più viene inserito nel mese di febbraio, il più corto dell'anno, che negli anni bisestili arriva a contare 29 giorni anziché 28.
+Serve come accorgimento utilizzato in quasi tutti i calendari solari (quali quelli giuliano e gregoriano) per evitare lo slittamento delle stagioni.
+In questo modo si può ottenere una durata media dell'anno pari a un numero non intero di giorni. 
+Nel calendario giuliano è bisestile un anno ogni 4 (quelli la cui numerazione è divisibile per $4$). La durata media dell'anno diventa così di $365,25$ giorni ($365$ giorni e $6$ ore) e la differenza rispetto all'anno tropico si riduce da $5,8128$ ore in difetto ad appena $11$ minuti e $14$ secondi in eccesso. Il calendario gregoriano riduce ulteriormente questa approssimazione eliminando $3$ anni bisestili ogni $400$, portando la durata media dell'anno a $365,2425$ giorni ($365 + 97/400$), con una differenza di soli $26$ secondi in eccesso.
+
+Nel calendario gregoriano, quindi, sono bisestili:
+\begin{itemize}
+   \item gli anni non secolari il cui numero è divisibile per 4;
+   \item gli anni secolari il cui numero è divisibile per 400.
+\end{itemize}
+
+Si fà presente che un anno viene detto \emph{secolare} quando il suo numero sia divisibile per $100$.
+
+\sezionetesto{Dati di input}
+Il vostro programma riceve come suo input un numero naturale $N$; esso indica un qualche anno solare a partire da quello della nascita di Cristo (l'anno zero).
+
+\sezionetesto{Dati di output}
+
+Dovete ritornare in output il numero di giorni di cui si compone l'anno $N$ di Nostro Signore.
+
+% Esempi
+\sezionetesto{Esempio di input/output}
+\esempio{0}{
+366
+}
+
+\sezionetesto{Esempio di input/output}
+\esempio{100}{
+365
+}
+
+\sezionetesto{Esempio di input/output}
+\esempio{2000}{
+366
+}
+
+\sezionetesto{Esempio di input/output}
+\esempio{2018}{
+365
+}
+
+
+% Assunzioni
+\sezionetesto{Assunzioni e note}
+\begin{itemize}[nolistsep, noitemsep]
+  \item $0 \le N \le 1\,000\,000$.
+\end{itemize}
+  
+  \section*{Subtask}
+  \begin{itemize}
+    \item \textbf{Subtask 1 [20 punti]:} gli esempi del testo.
+    \item \textbf{Subtask 2 [80 punti]:} nessuna restrizione.
+  \end{itemize}
+  
