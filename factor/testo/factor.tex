@@ -1,0 +1,59 @@
+\renewcommand{\nomebreve}{factor}
+\renewcommand{\titolo}{Produrre la fattorizzazione di un naturale come prodotto di primi}
+
+\introduzione{}
+
+Un numero naturale $n$, con $n\geq 2$, si dice \emph{primo} se ammette solamente i segunti due divisori ``benali'', comuni a tutti i numeri naturali:
+\begin{itemize}
+\item lo uno divide ogni numero naturale; lo uno non viene considerato un numero primo, e, proprio per meglio distinguerlo, in questo contesto come in sue generalizzazioni, viene spesso chiamato l'\emph{unità}.
+\item ogni numero naturale, forse con la sola eccezione dello zero, divide splendidamente sè stesso.  
+\end{itemize}
+
+La ragione di non considerare lo uno alla stregua di un numero primo è per non mandare a rotoli il teorema fondamentale dei numeri (Euclide):
+
+\begin{quote}
+  Ogni numero naturale può essere scritto come prodotto di numeri interi.
+  E tale scrittura è unica.
+\end{quote}
+
+Ricevuto in input da stdin un numero naturale positivo $n$,
+il tuo programma dovrà scrivere su stdout tale scrittura unica.
+Chiediamo che i fattori primi del numero vengano listati in ordine di granzezza, così che la stessa stringa che sei chiamato a scrivere sia di fatto univocamente determinata dall'input.
+
+% Esempi
+\sezionetesto{Esempio di input/output}
+\esempio{5}{
+5
+}
+
+\sezionetesto{Esempio di input/output}
+\esempio{6}{
+2*3*6
+}
+
+\sezionetesto{Esempio di input/output}
+\esempio{8}{
+2*2*2
+}
+
+\sezionetesto{Esempio di input/output}
+\esempio{12}{
+2*2*3
+}
+
+
+% Assunzioni
+\sezionetesto{Assunzioni e note}
+\begin{itemize}[nolistsep, noitemsep]
+  \item $1 \le n \le 1\,000\,000$.
+\end{itemize}
+  
+  \section*{Subtask}
+  \begin{itemize}
+    \item \textbf{Subtask 1 [20 punti]:} gli esempi del testo.
+    \item \textbf{Subtask 2 [20 punti]:} $n\leq 20$.
+    \item \textbf{Subtask 3 [20 punti]:} $n\leq 100$.
+    \item \textbf{Subtask 4 [20 punti]:} $n\leq 1000$.
+    \item \textbf{Subtask 5 [20 punti]:} $n\leq 1\,000\,000$.
+  \end{itemize}
+  

@@ -1,0 +1,8 @@
+memory_limit: 256
+name: factor
+time_limit: 1.0
+title: Produrre la fattorizzazione di un naturale come prodotto di primi
+token_mode: infinite
+infile: ""
+outfile: ""
+
