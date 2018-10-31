@@ -1,0 +1,43 @@
+\renewcommand{\nomebreve}{list\_divisors}
+\renewcommand{\titolo}{Elencare i divisori di un numero}
+
+\introduzione{}
+
+Ricevuto in input da stdin un numero naturale positivo $n$,
+il tuo programma dovrà elencare tutti quei numeri naturali che dividano $n$ senza produrre alcun resto. Tali numeri vanno scritti su stdout, collocati uno per riga, ed in ordine crescente.
+
+% Esempi
+\sezionetesto{Esempio di input/output}
+\esempio{5}{
+1
+
+5
+}
+
+\sezionetesto{Esempio di input/output}
+\esempio{6}{
+1
+
+2
+
+3
+
+6
+}
+
+
+% Assunzioni
+\sezionetesto{Assunzioni e note}
+\begin{itemize}[nolistsep, noitemsep]
+  \item $1 \le n \le 1\,000\,000$.
+\end{itemize}
+  
+  \section*{Subtask}
+  \begin{itemize}
+    \item \textbf{Subtask 1 [20 punti]:} gli esempi del testo.
+    \item \textbf{Subtask 2 [20 punti]:} $n\leq 10$.
+    \item \textbf{Subtask 3 [20 punti]:} $n\leq 100$.
+    \item \textbf{Subtask 4 [20 punti]:} $n\leq 1000$.
+    \item \textbf{Subtask 5 [20 punti]:} $n\leq 1\,000\,000$.
+  \end{itemize}
+  
