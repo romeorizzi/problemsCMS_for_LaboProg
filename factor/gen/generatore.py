@@ -2,5 +2,5 @@
 
 import sys
 N, = sys.argv[1:]
-assert 0 <= int(N) <= 1000000
+assert 1 <= int(N) <= 1000000
 print N
