@@ -3,4 +3,4 @@
 # Soluzione di io_std
 
 n = input()
-print n
+print(n)
