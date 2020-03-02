@@ -2,7 +2,8 @@ memory_limit: 256
 name: io_std
 time_limit: 1.0
 title: Ricevere input ed erogare output sui canali standard
-token_mode: infinite
 infile: ""
 outfile: ""
+token_mode: disabled
+public_testcases: all
 

@@ -2,7 +2,8 @@ memory_limit: 256
 name: taylor
 time_limit: 1.0
 title: Computo approssimato di funzioni tramite Taylor e Mc-Laurin
-token_mode: infinite
 infile: ""
 outfile: ""
+token_mode: disabled
+public_testcases: all
 

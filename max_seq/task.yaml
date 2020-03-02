@@ -2,4 +2,6 @@ memory_limit: 256
 name: max_seq
 time_limit: 1.0
 title: Trovare il massimo in una sequenza
-token_mode: infinite
+token_mode: disabled
+public_testcases: all
+

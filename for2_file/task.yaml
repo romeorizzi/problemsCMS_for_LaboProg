@@ -2,4 +2,6 @@ memory_limit: 256
 name: for2_file
 time_limit: 1.0
 title: Esercizio sui for annidati computo tabelline
-token_mode: infinite
+token_mode: disabled
+public_testcases: all
+

@@ -2,7 +2,8 @@ memory_limit: 256
 name: bisestile_giuliano
 time_limit: 1.0
 title: Riconscimento di anni bisestili secondo il calendario giuliano
-token_mode: infinite
 infile: ""
 outfile: ""
+token_mode: disabled
+public_testcases: all
 
