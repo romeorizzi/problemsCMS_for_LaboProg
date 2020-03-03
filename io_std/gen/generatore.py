@@ -11,8 +11,8 @@ Parametri:
 * N (numero)
 
 Constraint:
-* 1 <= N <= %d
-""" % (MAXN)
+* -%d <= N <= %d
+""" % (MAXN,MAXN)
 
 
 if __name__ == "__main__":
