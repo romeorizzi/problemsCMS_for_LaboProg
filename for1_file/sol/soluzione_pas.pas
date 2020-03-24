@@ -1,9 +1,7 @@
 (*
  *  Soluzione di for1
  *
- *  Autore: Romeo Rizzi
- *
- *  Descrizione: Banale
+ *  Autore: Romeo Rizzi, last: 2020-03-24
  *)
 
 var N, i : longint;

@@ -1,9 +1,11 @@
 #!/usr/bin/python3
+# Una soluzione di for1_file (Andrea Cracco/Alessandro Righi)
+# Andrea Cracco/Alessandro Righi, last update: Romeo Rizzi 2020-03-24
 
 with open("input.txt","r") as infile:
- st = int(infile.readline())
-b=""
-for a in range(1,st+1):
- b += str(a) + " "
+ N = int(infile.readline())
+st=""
+for n in range(1,N+1):
+ st += str(n) + " "
 with open("output.txt", "w+") as outfile:
- outfile.write(b+"\n")
+ outfile.write(st+"\n")
